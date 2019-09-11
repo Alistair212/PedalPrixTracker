@@ -1,4 +1,4 @@
-# Pedal Prix Tracker 2019
+# Pedal Prix Tracker
 Script for easy display of multiple car's Pedal Prix live score on race day, this program is written in AutoIT (Open Source) and can be downloaded from its official site (https://www.autoitscript.com/site/autoit/downloads/). This program can only run on Microsoft Windows.
 
 ## What is it?
