@@ -6,7 +6,7 @@ Global $WaitTimeSEC, $WaitTimeMS, $NumOfCars, $LiveScorePageTitle, $loop
 Global $Car1Name, $Car2Name, $Car3Name, $Car4Name
 Global $Car1NameLEN, $Car2NameLEN, $Car3NameLEN, $Car4NameLEN
 
-Global $LiveScorePageTitle = InputBox("Pedal Tracker", "What is the exact name of the window? can be found by hovering over the taskbar icon Internet Explorer is recommended", "event results – Australian HPV Super Series - Internet Explorer", "")
+Global $LiveScorePageTitle = InputBox("Pedal Tracker", "What is the exact name of the window? can be found by hovering over the taskbar icon Internet Explorer is recommended", "event results â€“ Australian HPV Super Series - Internet Explorer", "")
 
 ;Ask user to input name for each car, Replace last word with the default for the program
 Global $Car1Name = InputBox("Pedal Tracker", "Enter car 1's name (exact) 1/4", "CarName1", "")
@@ -28,23 +28,6 @@ $WaitTimeMS = $WaitTimeSEC * 1000
 ;Opens Notepad and sends instructions and confirms vars
 Run("notepad.exe")
 WinWaitActive("Untitled - Notepad")
-Send("                                          $-    *.,{ENTER}")
-Send("              d$$$$$$$P                  $    J,{ENTER}")
-Send("                  ^$.                     4r  ,{ENTER}")
-Send("                  d b                    .db,{ENTER}")
-Send("                 P   $                  e $,{ENTER}")
-Send("        ..ec.. .      *.              zP   $.zec..,{ENTER}")
-Send("    .^        3*b.     *.           .P .@ 4F       4,{ENTER}")
-Send("  .          d   ^b.    *c        .$  d    $         %,{ENTER}")
-Send(" /          P      $.     c      d    @     3r         3,{ENTER}")
-Send("4        .eE........$r===e$$$$eeP    J       *..        b,{ENTER}")
-Send("$       $$$$$       $   4$$$$$$$     F       d$$$.      4,{ENTER}")
-Send("$       $$$$$       $   4$$$$$$$     L       *$$$       4,{ENTER}")
-Send("4                  3P ===$$$$$$      3                  P,{ENTER}")
-Send(" *                 $       '''        b                J,{ENTER}")
-Send("   .             .P                    %.             @,{ENTER}")
-Send("    %.         z*                      ^%.        .r,{ENTER}")
-Send("        *==*                               ^ *==*,{ENTER}")
 Send("Welcome To Pedal Tracker.{ENTER}")
 Send("This Program Was Created By Alistair - me@alistairs.space{ENTER}")
 Send("For Seaview - Pedal Prix Team.{ENTER}")
