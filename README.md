@@ -3,7 +3,7 @@ Script for easy display of multiple car's Pedal Prix live score on race day, thi
 
 
 # Future Upgrades
-Migrate project to a programming language such as python for it to be able to crawl the website and integrate a gui display
+Migrate project to a programming language such as python for it to be able to crawl the website and integrate a gui
 
 ## What is it?
 Pedal Prix Tracker is a program built using AutoIT that highlights and switches between the specified names of cars for Pedal Prix Races so that teams can keep track of their efforts on race day.
