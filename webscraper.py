@@ -4,6 +4,8 @@ import requests
 fileOutput = r"C:\Users\User\OneDrive\Desktop\txt.txt"
 scoreb = "https://www.ahpvss.com/admin/aipp.php"
 
+div = "-------------------------------------"
+
 #Define load websites html
 def raw(url):
     response = requests.get(url)
@@ -11,9 +13,11 @@ def raw(url):
     return data
 
 ##Define write to file method
-def writefile():
+def htmltofile():
 	f = open(fileOutput, 'w')
 	f.write(raw(scoreb))
 	f.close()
+	print("File written: " + fileOutput)
 
-writefile()
+
+htmltofile()
