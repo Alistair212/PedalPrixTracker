@@ -1,8 +1,19 @@
 import requests
-from bs4 import BeautifulSoup
-import pandas as pd
 
+#Constants
+fileOutput = r"C:\Users\User\OneDrive\Desktop\txt.txt"
+scoreb = "https://www.ahpvss.com/admin/aipp.php"
 
-url = 'https://ahpvss.com/event-results/'
-requests.get(url)
-page = requests.get(url)
+#Define load websites html
+def raw(url):
+    response = requests.get(url)
+    data = response.text
+    return data
+
+##Define write to file method
+def writefile():
+	f = open(fileOutput, 'w')
+	f.write(raw(scoreb))
+	f.close()
+
+writefile()
