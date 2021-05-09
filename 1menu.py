@@ -17,19 +17,17 @@ def logo():
     print("|  __/ _ \/ _` |/ _` | |   | | '__/ _` |/ __| |/ / _ \ '__|")
     print("| | |  __/ (_| | (_| | |   | | | | (_| | (__|   <  __/ |   ")
     print("\_|  \___|\__,_|\__,_|_|   \_/_|  \__,_|\___|_|\_\___|_|   ")
+    print("Version: " + Version)
     div()
 
-
 def space(num):
-    if num == 0:
-        num = 1
     i=0
     while i < num:
         print("\n")
         i += 1
 
 
-#START
+#Main Menu
 def menu():
     space(1)
     logo()
@@ -39,6 +37,7 @@ def menu():
     print("(2) Start tracking display")
     print("(3) Test connection")
     print("(4) Reset software")
+    print("(5) Exit Program")
 
 
     selection = input("Enter Selection: ")
@@ -50,6 +49,8 @@ def menu():
         print("3")
     elif selection == '4':
         print("4")
+    elif selection == '5':
+        exit()
     else:
         print("Invalid Selection")
         menu()
